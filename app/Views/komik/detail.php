@@ -24,4 +24,5 @@
     </div>
   </div>
 </div>
+<p>INi buatan colaborate</p>
 <?= $this->endSection(); ?>
