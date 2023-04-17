@@ -33,4 +33,10 @@ class Komik extends BaseController
     ];
     return view('komik/detail', $data);
   }
+  public function create(){
+    $data = [
+      'title'=>'Form Tambah Data Komik'
+    ];
+    return view('komik/create', $data);
+  }
 }
